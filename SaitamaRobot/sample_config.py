@@ -18,11 +18,11 @@ class Config(object):
     API_ID = 7092919  # integer value, dont use ""
     API_HASH = "e37661f962cc0a17e784927cfc83cac9"
     TOKEN = "2043886741:AAE87shI7sc_tzzocYvq0NBpzs3RYxZDsz0"  #This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 792109647  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_ID = 1815481119  # If you dont know, run the bot and do /id in your private chat with it, also an integer
     OWNER_USERNAME = "satoshi4545"
     SUPPORT_CHAT = 'SatoshiRobotSupport'  #Your own group for support, do not add the @
-    JOIN_LOGGER = -1001253661229  #Prints any new group the bot is added to, prints just the name and ID.
-    EVENT_LOGS = -1001190806654  #Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
+    JOIN_LOGGER = -1001525112206  #Prints any new group the bot is added to, prints just the name and ID.
+    EVENT_LOGS = -1001525112206  #Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     #RECOMMENDED
     SQLALCHEMY_DATABASE_URI = 'something://somewhat:user@hosturl:port/databasename'  # needed for any database modules
